@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Plate Share 🥗
 > A community surplus food rescue platform connecting food donors (restaurants, hostels, caterers, households) with NGOs, charities, and people in need before food spoils.
 
@@ -253,3 +254,7 @@
 - Submit a report on a post.
 - Run Stage 3 cleanup: notice the console skips the post because **posts with open reports are never deleted until resolved by admin**.
 - Dismiss or take down the report in the Admin Reports tab to resolve.
+=======
+# PlateShare-
+Food donation platform connecting donors (hostels, restaurants, caterers, households) with NGOs and people in need, with automatic expiry of food posts.
+>>>>>>> 86b9991a66770a92fb6109226072aab3632b6bd6
