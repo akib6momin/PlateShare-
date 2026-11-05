@@ -1,0 +1,15 @@
+{
+  "name": "plateshare",
+  "version": "1.0.0",
+  "description": "Plate Share - Food donation platform connecting food donors with NGOs and people in need",
+  "scripts": {
+    "server": "node server/index.js",
+    "seed": "node server/seed.js",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "npm run build --prefix client"
+  },
+  "keywords": ["food-donation", "ngo", "zero-waste", "surplus-food"],
+  "author": "PlateShare",
+  "license": "MIT"
+}

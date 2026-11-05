@@ -1,0 +1,19 @@
+{
+  "name": "plateshare-server",
+  "version": "1.0.0",
+  "description": "Plate Share Backend API with SQLite (sql.js Wasm), atomic booking transactions, and multi-stage expiry cleanup",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "node-cron": "^3.0.3",
+    "sql.js": "^1.15.2"
+  }
+}
